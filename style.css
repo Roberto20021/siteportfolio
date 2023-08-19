@@ -1,0 +1,148 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ 
+
+/* Reset some default styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #12f312ee;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ... (código anterior) ... */
+
+.hero {
+    background-color: #642afb;
+    text-align: center;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product-image {
+    flex: 1;
+    margin-right: 2rem;
+    max-width: 50%; /* Defina a largura da imagem */
+}
+
+.product-image img {
+    width: 500px;
+    height: 500px;
+   
+}
+
+.product-details {
+   
+    flex: 1;
+    max-width: 50%;
+}
+
+/* ... (código posterior) ... */
+
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #12f312ee;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s; /* Adiciona uma transição suave */
+}
+.cta-button:hover {
+    transform: scale(1.1); /* Aumenta o tamanho do botão em 10% */
+}
+
+/* Features section styles */
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 0;
+    background-color: #f9f9f9;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+}
+
+.feature h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+.valor { font-size: 1.8rem; }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+    }
+
+    .nav-links li {
+        margin: 0.5rem 0;
+    }
+}
